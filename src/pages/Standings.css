@@ -4,13 +4,35 @@
     justify-content: space-between;
     margin-left: 25px;
     margin-right: 15px;
-    width: 60%;
+    width: 90%;
+    
 }
 .GameStandings {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    justify-self: start;
 }
 
-.GameTitle {
-    width: 60%;
+
+.Cutoff{
+    width: 90%;
+    align-self: center;
+    border: 1px solid blue;
+}
+
+.StandingsMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.FullStandings {
+    display: none;
+    
+}
+
+.active, .Expand:hover {
+    background-color: #555;
 }
