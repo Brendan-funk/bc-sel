@@ -31,16 +31,25 @@ nav {
   background-blend-mode:color-dodge;
 }
 
+button {
+  border: none;
+  background: none;
+  font-size: larger;
+}
+
+button:hover {
+  color: rgb(13, 13, 133);
+}
+
 .links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 1px solid red;
-  width: 70%;
+  width: 80%;
   font-size: 200%;
+  align-items: end;
 }
 .logo {
-  border: 1px solid green;
   width: 14%;
 }
 

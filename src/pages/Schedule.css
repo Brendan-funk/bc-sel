@@ -1,0 +1,8 @@
+.ScheduleMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+.QualifierInfo {
+    flex: 40%;
+}

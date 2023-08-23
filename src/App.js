@@ -15,18 +15,10 @@ function App() {
         <nav>
           <img className="logo" src={logo}/>
           <div className="links">
-            <p>
-              <Link to="/">Home</Link>
-            </p>
-            <p>
-              <Link to="/schedule">Schedule</Link>
-            </p>
-            <p>
-              <Link to="/standings"> Standings </Link>
-            </p>
-            <p>
-              <Link to="/contact">Contact Us</Link>
-            </p>
+              <Link to="/"><button>Home</button></Link>
+              <Link to="/schedule"><button>Schedule</button></Link>
+              <Link to="/standings"><button>Standings</button></Link>
+              <Link to="/contact"><button>Contact Us</button></Link>
           </div>
         </nav>
           <Routes>

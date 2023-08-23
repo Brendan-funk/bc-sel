@@ -1,0 +1,16 @@
+.TeamInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 15px;
+    width: 60%;
+}
+.GameStandings {
+    display: flex;
+    flex-direction: column;
+}
+
+.GameTitle {
+    width: 60%;
+}
