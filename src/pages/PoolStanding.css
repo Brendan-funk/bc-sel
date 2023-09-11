@@ -1,0 +1,11 @@
+.Pool {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.TeamInfo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 1px solid red;
+}
