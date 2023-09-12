@@ -13,6 +13,21 @@ const ValorantPool1 = [
         place: "#3",
         teamName: "Mei C",
         points: "10 pts"
+    },
+    {
+        place: "#4",
+        teamName: "LCS A",
+        points: "9 pts"
+    },
+    {
+        place: "#5",
+        teamName: "ACS A",
+        points : "9 pts",
+    },
+    {
+        place: "#6",
+        teamName: "P.A. A",
+        points: "8 pts"
     }
 ]
 
